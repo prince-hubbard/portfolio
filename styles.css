@@ -34,12 +34,12 @@ header nav>.links a:hover {
     color: #00e091;
 }
 
-nav .fa-solid {
+nav .fa {
     display: none;
 }
 
 @media(min-width:320px) and (max-width:480px) {
-    header {
+    /* header {
         position: unset;
     }
     .links a {
@@ -57,7 +57,7 @@ nav .fa-solid {
         transition: 1s;
     }
     nav .fa-solid {
-        display: unset;
+        display: block;
     }
     .fa-solid {
         display: block;
@@ -67,8 +67,38 @@ nav .fa-solid {
         margin: 10px;
     }
     header nav>.links a:hover {
-        background-color: #535da1a1;
+        background-color: #5e6388a1;
         font-family: 'Poppins', sans-serif;
+    } */
+    .topnav {
+        overflow: hidden;
+        /* background-color: ; */
+        position: relative;
+    }
+    .topnav #myLinks {
+        display: none;
+    }
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    .topnav a.icon {
+        /* background: black; */
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    .active {
+        background-color: #04AA6D;
+        color: white;
     }
 }
 
@@ -315,12 +345,12 @@ nav .fa-solid {
         bottom: 25%;
         left: -1.5em;
         top: -18em;
-        width: 120%;
+        width: 140%;
     }
     .svg {
         position: relative;
         z-index: 1;
-        margin-top: -6.9em;
+        margin-top: -6.7em;
     }
 }
 
@@ -381,7 +411,11 @@ grid-row-gap: -7em; */
 }
 
 @media(min-width:320px) and (max-width:480px) {
+    main {
+        overflow: hidden;
+    }
     .secondsec div img {
+        margin-top: 2em;
         width: 100%;
         height: 50vh;
         /* display: none; */
@@ -557,6 +591,7 @@ grid-row-gap: -7em; */
         margin-right: 6%;
     }
     .flexinfo table {
+        flex: 1;
         width: 80px;
         margin: 0px 15px 0px 9px;
     }
@@ -670,6 +705,7 @@ grid-row-gap: -7em; */
 }
 
 .box1 {
+    flex: 1;
     padding: 1em 0em 0em 1em;
     height: 23em;
     width: 25em;
