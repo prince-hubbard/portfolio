@@ -293,10 +293,10 @@ nav .fa {
 
 @media(min-width:360px) and (max-width:740px) {
     .firstsec {
-        height: 90vh;
+        height: 85vh;
     }
     .circlebg>div {
-        margin-top: 31.5em;
+        margin-top: 30.5em;
     }
     .circlebg>div+img {
         left: -3.5em;
