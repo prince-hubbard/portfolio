@@ -293,14 +293,14 @@ nav .fa {
 
 @media(min-width:360px) and (max-width:740px) {
     .firstsec {
-        height: 85vh;
+        height: 83vh;
     }
     .circlebg>div {
-        margin-top: 30.5em;
+        margin-top: 29.5em;
     }
     .circlebg>div+img {
         left: -3.5em;
-        top: -20.5em;
+        top: -22.5em;
         width: 170%;
     }
     .svg {
